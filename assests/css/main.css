@@ -1,0 +1,404 @@
+body{
+  background: fixed;
+	font-family: lato;
+  overflow-x: hidden;
+
+}
+.navbar{
+  background: #222;
+}
+
+ .jumbotron{
+ 	background-color: #000;
+ }
+
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{
+	color:   #18d36e;
+	
+	font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #18d36e !important;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+}
+
+}
+.header__flex{
+	display: flex;
+	justify-content: space-around;
+}
+.heading1__styling{
+	
+	margin-top: 200px;
+	color: #fff;
+}
+.main__margin{
+  margin: 0 80px;
+}
+.image__styling{
+  height: 100%;
+  width: 100%
+}
+.btn-primary1{
+	background-color: white;
+	color: black;
+	border-color: white;
+	margin-left: 50px;
+
+}
+.btn-primary:hover,.btn-info:hover{
+	background-color:  #18d36e;
+	border-color:  #18d36e;
+}
+.about-styling{
+  padding-top: 60px;
+  background: #fff;
+}
+
+.text__styling{
+	text-align: center;
+  color: black;
+  padding-bottom: 30px;
+}
+.text__styling1{
+  text-align: center;
+  color: green;
+  padding-top: 20px;
+}
+.paragraph__styling{
+	padding: 0 100px;
+}
+.paragraph__styling1{
+    padding: 0 50px;
+
+}
+.paragraph3__styling{
+  color: green;
+  font-weight: 600;
+}
+#about-me{
+  padding-top: 50px;
+}
+.education__styling{
+  padding-top: 10px;
+}
+#skill2{
+display: none;
+}
+#button-2{
+  display: none;
+
+}
+.skill__styling1{
+  display: flex;
+}
+.skill__styling2{
+  height: 10px;
+  width: 90%;
+  background: green;
+}
+.skill__styling3{
+  height: 10px;
+  width: 10%;
+  background:black;
+}
+.skill__styling4{
+  height: 10px;
+  width: 80%;
+  background: green;
+}
+.skill__styling5{
+  height: 10px;
+  width: 20%;
+  background:black;
+}
+.skill__styling6{
+  height: 10px;
+  width: 50%;
+  background: green;
+}
+.skill__styling7{
+  height: 10px;
+  width: 50%;
+  background:black;
+}
+.skill__styling8{
+  height: 10px;
+  width: 70%;
+  background: green;
+}
+.skill__styling9{
+  height: 10px;
+  width: 30%;
+  background:black;
+}
+.row__border{
+  border-left: 4px solid #555;
+}
+#portfolio, #service, #contact{
+  padding-top: 50px;
+}
+.portfolio__color{
+  background: #eee;
+  padding-bottom:40px;
+}
+.contact__color{
+  background: #eee;
+  padding-bottom:40px;
+}
+.portfolio__color1{
+  padding-bottom:40px;
+}
+.mybtn{
+  width: 150px;
+  margin-top: 15px;
+
+
+}
+.thanks{
+  text-align: center;
+}
+
+.input__class{
+  margin-bottom: 20px;
+  min-width: 100%;
+  height: 36.5px;
+  padding-left: 10px;
+}
+.input__class1{
+  min-width: 100%;
+  padding-left: 10px;
+}
+
+
+
+
+#footer {
+  background: #000;
+  padding: 0 0 30px 0;
+  color: #eee;
+  font-size: 14px;
+}
+#footer .footer-top {
+  background: #111;
+  padding: 60px 0 30px 0;
+}
+
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info h3 {
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 10px;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  border-left: 4px solid #18d26e;
+}
+
+#footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #eee;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #eee;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links a:hover {
+  background: #18d26e;
+  color: #fff;
+}
+
+#footer .footer-top h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+#footer .footer-top h4::before, #footer .footer-top h4::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+}
+
+#footer .footer-top h4::before {
+  right: 0;
+  background: #555;
+}
+
+#footer .footer-top h4::after {
+  background: #18d26e;
+  width: 60px;
+}
+.service__design{
+  background:white;
+  text-align: center;
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  min-height: 275px;
+  margin-bottom: 20px;
+}
+.service__design .fa{
+  padding: 20px;
+  border-radius: 50%;
+  background:white;
+  font-size: 40px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul i {
+  padding-right: 8px;
+  color: #ddd;
+}
+
+#footer .footer-top .footer-links ul li {
+  border-bottom: 1px solid #333;
+  padding: 10px 0;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #eee;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: #18d26e;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact p {
+  line-height: 26px;
+}
+
+#footer .footer-top .footer-newsletter {
+  margin-bottom: 30px;
+}
+
+input[type="email"] {
+  border: 0;
+  padding: 6px 8px;
+  width: 65%;
+}
+
+ input[type="submit"] {
+  background: #18d26e;
+  border: 0;
+  width: 20%;
+  padding: 6px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+  float: right;
+}
+
+ input[type="submit"]:hover {
+  background: #13a456;
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+@media(max-width: 991px){
+
+.col-viv{
+
+  max-width: 50% !important;
+  flex: 0 0 50%;
+}
+#button-2{
+  display: none;
+}
+
+}
+@media(max-width: 767px){
+.col-viv{
+
+  max-width: 100% !important;
+  flex: 0 0 100%;
+}
+
+
+#skill{
+display: none;
+}
+  #skill2{
+
+    display: block;
+  }
+  #button-1{
+  display: none;
+  }
+  .botton-2{
+    display: block;
+  }
+  .heading1__styling{
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .text__styling1{
+    padding-top:0;
+    font-size: 25px;
+  }
+  .text__styling{
+    font-size: 18px;
+  }
+  #about-me{
+    padding-top: 0;
+    padding-bottom: 15px;
+
+  }
+  .main__margin{
+  margin: 0 30px;
+}
+.col__styling{
+  padding-bottom: 20px;
+}
+}
